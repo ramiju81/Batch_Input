@@ -1,0 +1,734 @@
+Descripción detallada: Muestra el proceso de registro de una clase grupal, donde el usuario ingresa los detalles, como nombre, horario y lugar.
+
+Pruebas realizadas: Validación del formulario de registro para evitar datos incompletos.
+Verificación de la funcionalidad de los campos obligatorios y opcionales.
+Pruebas de carga para garantizar el rendimiento del sistema al registrar múltiples clases.
+
+Resultados esperados: El sistema debe registrar correctamente la clase grupal y mostrar un mensaje de confirmación.
+Figura 52. Vista previa del mensaje cuando se le da guardar al registro
+
+Descripción detallada: Informa al usuario que los cambios o registros realizados han sido guardados exitosamente en el sistema.
+
+Pruebas realizadas: Verificación de la aparición del mensaje tras acciones de guardado, pruebas para garantizar que el mensaje desaparezca automáticamente tras un tiempo o al cerrar y validación de la claridad del mensaje, incluyendo detalles sobre lo que se guardó.
+
+Resultados esperados: El usuario debe recibir una confirmación clara y visualmente destacada del guardado exitoso.
+
+Figura 53
+
+Descripción detallada: Este módulo permite gestionar las rutinas específicas asignadas a entrenamientos individuales. Los usuarios pueden personalizar los ejercicios y ajustarlos según las necesidades del cliente.
+
+Pruebas realizadas: Verificación de la creación de nuevas rutinas con ejercicios personalizados, validación de la edición y eliminación de rutinas existentes con las pruebas para asegurar la sincronización con las estadísticas del cliente.
+
+Resultados esperados: Las rutinas deben ser fácilmente gestionables, reflejando los cambios en tiempo real y mostrando coherencia con los datos asociados.
+
+Figura 54 
+
+Descripción detallada: Ofrece una vista general del entrenamiento en curso, incluyendo detalles de tiempo, repeticiones y objetivos específicos.
+
+Pruebas realizadas: Validación de que los datos del entrenamiento actual se muestran correctamente, pruebas de funcionalidad para pausar, reiniciar o terminar el entrenamiento desde esta pantalla y la confirmación de que las métricas del entrenamiento se sincronizan automáticamente con las estadísticas del usuario.
+
+Resultados esperados: Los usuarios deben poder visualizar y gestionar el progreso del entrenamiento sin interrupciones.
+
+Figura 55 
+
+Descripción detallada: Permite al usuario introducir detalles específicos del entrenamiento, como duración, número de repeticiones y calorías quemadas.
+
+Pruebas realizadas: Validación de la entrada de datos con límites y valores predeterminados, pruebas de usabilidad para facilitar el ingreso rápido de información y la confirmación de que los datos ingresados se reflejan correctamente en el perfil del usuario.
+
+Resultados esperados: El sistema debe aceptar y almacenar los registros sin errores, mostrando un resumen detallado del entrenamiento.
+
+
+
+Figura 56 Vista previa de la visualización del entrenamiento registrado
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Ofrece un resumen visual del entrenamiento registrado, destacando métricas clave como calorías quemadas, tiempo total y progreso en objetivos personales.
+
+Pruebas realizadas: Verificación de que los datos registrados se muestran de manera precisa y comprensible, validación de los gráficos y estadísticas generados a partir de los datos ingresados y las pruebas de accesibilidad para garantizar una experiencia óptima en diferentes dispositivos.
+
+Resultados esperados: Los usuarios deben poder visualizar fácilmente el impacto de su entrenamiento y cómo se alinea con sus objetivos.
+
+
+
+Figura 57. Vista previa del mensaje cuando se le da guardar al registro
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Informa al usuario que los datos del entrenamiento han sido guardados exitosamente en el sistema.
+
+Pruebas realizadas: Validación de la aparición del mensaje tras guardar datos, confirmación de que el mensaje desaparece automáticamente o al cerrarlo manualmente y pruebas de consistencia para garantizar que se muestre el mensaje correcto en cada acción.
+
+Resultados esperados: El mensaje debe proporcionar confianza al usuario sobre la correcta actualización de sus datos.
+
+
+
+Figura 58. Vista previa de los menús de las estadísticas
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Presenta los diferentes menús relacionados con las estadísticas del usuario, como progreso físico, rutinas completadas y metas alcanzadas.
+
+Pruebas realizadas: Verificación de la organización y claridad de los menús, pruebas de navegación para garantizar que cada menú lleva al contenido correspondiente y la validación de la actualización de datos en tiempo real.
+
+Resultados esperados: Los usuarios deben acceder a estadísticas precisas y actualizadas desde los menús.
+
+
+
+Figura 59. Vista previa de las gráficas de las estadísticas
+ 
+
+Figura 59 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra gráficas interactivas que reflejan el progreso físico del usuario, como pérdida de peso, incremento de masa muscular y calorías quemadas.
+
+Pruebas realizadas: Validación de la precisión de los datos reflejados en las gráficas, pruebas de interactividad, como seleccionar diferentes periodos de tiempo o métricas específicas y la confirmación de que las gráficas son responsivas y se ajustan a diferentes dispositivos.
+
+Resultados esperados: Las gráficas deben ser claras, precisas y fáciles de interpretar, con actualizaciones en tiempo real.
+
+
+
+Figura 60. Vista previa de los menús de configuración
+  
+Figura 60 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Los menús de configuración permiten a los usuarios personalizar aspectos del sistema, como notificaciones, unidades de medida y datos de privacidad.
+
+Pruebas realizadas: Validación de que cada opción de configuración es funcional y guarda los cambios realizados, pruebas de accesibilidad para garantizar que las configuraciones sean claras y entendibles y la verificación de la seguridad al modificar datos sensibles.
+
+Resultados esperados: Los usuarios deben poder personalizar el sistema según sus preferencias sin encontrar errores.
+
+
+
+Figura 61. Vista previa del submenú de cambiar unidad de medida
+ 
+Figura 61 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario cambiar entre unidades métricas e imperiales según su preferencia.
+
+Pruebas realizadas: Validación de que el cambio de unidad afecta a todos los módulos relacionados (antropométrico, estadísticas, rutinas), pruebas de usabilidad para garantizar que el cambio sea intuitivo y la confirmación de que los datos existentes se convierten correctamente a la nueva unidad.
+
+Resultados esperados: El sistema debe actualizar automáticamente todas las métricas tras cambiar la unidad de medida.
+
+
+
+Figura 62. Vista previa de otro submenú de privacidad de configuración de la aplicación
+  
+Figura 62 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Este submenú permite al usuario ajustar configuraciones relacionadas con la privacidad, como permisos de acceso a datos personales y la visibilidad de su perfil dentro del sistema.
+
+Pruebas realizadas: Verificación de que las opciones de privacidad funcionan correctamente, como activar o desactivar permisos específicos, validación de que los cambios realizados se guardan y aplican inmediatamente y las pruebas de seguridad para garantizar que la configuración protege adecuadamente los datos sensibles del usuario.
+
+Resultados esperados: El sistema debe ofrecer controles claros y efectivos para que el usuario gestione su privacidad.
+
+
+
+Figura 63. Vista previa de la configuración de la contraseña
+  
+
+Fuente: Elaboración propia.
+Descripción detallada: Muestra la pantalla donde el usuario puede cambiar su contraseña, ofreciendo medidas de seguridad como validación de complejidad y confirmación de la nueva contraseña.
+
+Pruebas realizadas: Validación de los criterios de seguridad para la nueva contraseña (longitud, caracteres especiales, etc.), pruebas de manejo de errores si la confirmación de la contraseña no coincide, y la confirmación de que la contraseña actualizada permite el acceso al sistema en el siguiente inicio de sesión.
+
+Resultados esperados: El sistema debe garantizar que las contraseñas cumplen con los estándares de seguridad y se actualizan correctamente.
+
+
+
+Figura 64. Vista previa del mensaje al guardar cambios en configuración
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Informa al usuario que los cambios realizados en las configuraciones han sido guardados exitosamente.
+
+Pruebas realizadas: Verificación de que el mensaje aparece tras guardar configuraciones específicas, validación de que el mensaje desaparece automáticamente o al cerrarlo manualmente y la confirmación de que los cambios guardados se reflejan en la interfaz de usuario.
+Resultados esperados: El usuario debe recibir una confirmación visual de que sus ajustes se han aplicado correctamente.
+
+
+
+Figura 65. Vista previa del mensaje cuando se ingresan datos errados
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Este mensaje notifica al usuario que los datos ingresados no son válidos o que hay campos obligatorios sin completar.
+
+Pruebas realizadas: Validación de que el mensaje aparece cuando los datos no cumplen con los requisitos del sistema, pruebas para garantizar que el mensaje sea claro e indique cómo corregir los errores y la confirmación de que no se permite avanzar hasta que se solucionen los errores.
+
+Resultados esperados: El usuario debe recibir un feedback claro para corregir los datos ingresados.
+
+
+
+Figura 66. Vista previa del mensaje de guardado exitoso
+ 
+Figura 66 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Informa que los datos o configuraciones han sido guardados correctamente, proporcionando tranquilidad al usuario sobre el éxito de la operación.
+
+Pruebas realizadas: Validación de que el mensaje aparece tras una acción exitosa de guardado, confirmación de que el mensaje desaparece automáticamente tras unos segundos y las pruebas de consistencia para garantizar que el mensaje refleja la acción realizada.
+
+Resultados esperados: El mensaje debe ser claro y proporcionar seguridad al usuario sobre el estado de la operación.
+
+
+
+Figura 67. Vista previa de la configuración de la foto de perfil
+ 
+Figura 67 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra la opción donde el usuario puede cambiar o actualizar su foto de perfil desde su galería o tomar una nueva foto.
+
+Pruebas realizadas: Validación de la funcionalidad para seleccionar imágenes desde diferentes fuentes (galería, cámara), pruebas para verificar la compatibilidad con formatos de imagen comunes (JPEG, PNG) y la confirmación de que la foto seleccionada se actualiza y se muestra correctamente en el perfil.
+
+Resultados esperados: El usuario debe poder actualizar su foto de perfil fácilmente, con una vista previa de la imagen seleccionada.
+
+
+
+Figura 68. Vista previa de la foto de perfil seleccionada
+ 
+Figura 68 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario visualizar la foto de perfil seleccionada antes de guardarla, asegurando que la imagen cumple con sus expectativas.
+
+Pruebas realizadas: Validación de que la foto seleccionada se muestra en alta calidad, pruebas para confirmar que el botón de "Guardar" guarda la imagen correctamente y la verificación de que el usuario puede volver a seleccionar otra foto si no está satisfecho.
+
+Resultados esperados: La vista previa debe proporcionar claridad y confianza al usuario antes de confirmar los cambios.
+
+
+
+Figura 69. Vista previa del submenú de notificaciones para los usuarios
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Este submenú permite configurar cómo y cuándo el usuario desea recibir notificaciones del sistema, como recordatorios de entrenamiento o alertas de progreso.
+
+Pruebas realizadas: Validación de la funcionalidad para activar o desactivar notificaciones específicas, pruebas para confirmar que los cambios realizados se reflejan en el comportamiento del sistema y la verificación de que las notificaciones activadas se envían en el momento correcto.
+
+Resultados esperados: El sistema debe permitir al usuario gestionar sus notificaciones de manera eficiente y personalizable.
+
+
+
+Figura 70. Vista previa de la configuración de las notificaciones
+  
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario detallar las preferencias de notificación, como tipo de alerta (push, email) y frecuencia.
+
+Pruebas realizadas: Validación de que el usuario puede seleccionar múltiples tipos de alertas simultáneamente, pruebas de funcionalidad para aplicar cambios de frecuencia (diario, semanal, etc.) y la confirmación de que las notificaciones configuradas llegan correctamente al usuario.
+
+Resultados esperados: El sistema debe personalizar las notificaciones según las preferencias configuradas por el usuario.
+Figura 71. Vista previa de gestionar una notificación 
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra cómo el usuario puede crear, editar o eliminar una notificación específica, personalizando los detalles como el tipo de alerta y su contenido.
+
+Pruebas realizadas: Validación del formulario para crear nuevas notificaciones con campos obligatorios y opcionales, pruebas de edición para confirmar que los cambios realizados se guardan correctamente y la confirmación de que la opción de eliminación solicita una confirmación antes de proceder.
+
+Resultados esperados: El sistema debe permitir al usuario gestionar notificaciones de manera clara y efectiva, evitando errores o pérdidas de datos.
+
+
+
+Figura 72. Vista previa de los detalles de una notificación
+ 
+Figura 72 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario visualizar información específica de una notificación creada, como la fecha programada, tipo de alerta y destinatarios.
+
+Pruebas realizadas: Validación de que los detalles mostrados son precisos y completos, pruebas de acceso rápido para editar o eliminar la notificación desde esta pantalla y la confirmación de que los cambios realizados en los detalles se reflejan inmediatamente.
+
+Resultados esperados: Los usuarios deben poder revisar y modificar los detalles de las notificaciones sin confusión.
+
+
+
+Figura 73. Vista previa del mensaje al guardar una notificación
+ 
+Figura 73 (Continua)
+
+  
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Notifica al usuario que una nueva notificación ha sido guardada exitosamente o que los cambios realizados en una existente han sido aplicados.
+
+Pruebas realizadas: Verificación de que el mensaje aparece tras completar el formulario de notificación y guardarlo, validación de que el mensaje desaparece automáticamente después de unos segundos o al cerrarlo y la confirmación de que la notificación guardada está disponible en el módulo correspondiente.
+
+Resultados esperados: El mensaje debe ser claro y brindar tranquilidad al usuario de que su acción fue exitosa.
+
+Perfil Usuario: El perfil del usuario está diseñado para ofrecer una experiencia personalizada que fomente la motivación y el control del progreso físico. Los usuarios pueden consultar sus rutinas asignadas, registrar actividades fácilmente y visualizar su avance mediante gráficos interactivos que destacan logros y objetivos pendientes. Además, reciben recomendaciones personalizadas y notificaciones dinámicas para mantenerlos enfocados y comprometidos con sus metas. La interfaz busca ser intuitiva, facilitando la interacción con la plataforma y promoviendo el compromiso con los objetivos físicos.
+
+
+
+Figura 74.Vista previa de la pantalla del celular, donde se encuentra el aplicativo PCAF
+ 
+Figura 74 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra la interfaz inicial del dispositivo móvil con el ícono del aplicativo PCAF claramente visible para ser seleccionado por el usuario.
+
+Pruebas realizadas: Validación de que el ícono del aplicativo se visualiza correctamente en diferentes resoluciones y tamaños de pantalla, pruebas para asegurar que al pulsar el ícono se inicia la aplicación sin errores y la verificación del tiempo de respuesta desde el inicio de la aplicación hasta la carga de la pantalla principal.
+
+Resultados esperados: El ícono debe ser fácilmente identificable, y el aplicativo debe abrirse sin demoras.
+
+
+
+Figura 75. Vista previa de ingreso de usuario al aplicativo
+ 
+Figura 75 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: El usuario accede a la pantalla de inicio de sesión, donde puede ingresar su nombre de usuario y contraseña o utilizar opciones para recuperar credenciales.
+
+Pruebas realizadas: Validación de los campos de entrada para asegurar que acepten únicamente formatos válidos, pruebas de las opciones "Recordar usuario" y "Recuperar contraseña" y la confirmación de que las credenciales válidas permiten el acceso al sistema.
+
+Resultados esperados: El sistema debe aceptar solo credenciales válidas y manejar errores de manera clara si estas son incorrectas.
+
+
+
+Figura 76. Vista previa para recordar contraseña
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Muestra el proceso para que el usuario recupere su nombre de usuario en caso de haberlo olvidado, brindando instrucciones claras y concisas.
+
+Pruebas realizadas: Validación de los datos requeridos para iniciar el proceso de recuperación del nombre de usuario, pruebas de envío de correos electrónicos o notificaciones relacionadas con la recuperación y la confirmación de que los usuarios reciben instrucciones detalladas sobre cómo recuperar su usuario.
+
+Resultados esperados: El sistema debe guiar al usuario de manera efectiva y resolver su problema de acceso.
+
+
+
+Figura 77. Vista previa de ingreso de credenciales para recordar contraseña
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario completar los datos necesarios para recuperar el nombre de usuario olvidado, asegurando que el proceso sea sencillo y seguro.
+
+Pruebas realizadas: Verificación de que los datos ingresados cumplen con los criterios de seguridad establecidos, validación de los mensajes de error en caso de datos incompletos o incorrectos y las pruebas de confirmación para garantizar que el nombre de usuario recuperado sea enviado correctamente al correo o se muestre en pantalla.
+
+Resultados esperados: El sistema debe permitir completar el proceso de manera segura y notificar al usuario que su nombre de usuario ha sido recuperado.
+Figura 78. Vista previa para recordar contraseña
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Proporciona una interfaz para que los usuarios inicien el proceso de recuperación de su contraseña olvidada, siguiendo pasos claros y seguros.
+
+Pruebas realizadas: Validación de los datos requeridos para iniciar el proceso de recuperación de contraseña, pruebas para garantizar que se envíe un correo o notificación con los pasos para restablecer la contraseña y la verificación de mensajes de error en caso de datos incorrectos o no registrados.
+
+Resultados esperados: El sistema debe guiar al usuario de manera eficiente para recuperar su contraseña y notificar sobre el progreso del proceso.
+
+
+
+Figura 79. Vista previa de ingreso de credenciales para recordar contraseña
+  
+Figura 79 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario completar los datos necesarios para iniciar el restablecimiento de la contraseña, como correo electrónico o preguntas de seguridad.
+
+Pruebas realizadas: Verificación de que los campos aceptan formatos válidos y cumplen con las restricciones de seguridad, pruebas para manejar errores si los datos no coinciden con la información registrada y la confirmación de que el proceso avanza correctamente tras ingresar datos válidos.
+
+Resultados esperados: El sistema debe procesar los datos y permitir al usuario completar el restablecimiento sin inconvenientes.
+
+
+
+Figura 80. Vista previa de ingreso de credenciales para acceder al sistema
+ 
+Figura 80 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra la pantalla principal de inicio de sesión, donde el usuario puede introducir su nombre de usuario y contraseña para acceder al sistema.
+
+Pruebas realizadas: Validación de las credenciales en el backend para garantizar seguridad, confirmación de mensajes de error claros si las credenciales son incorrectas y las pruebas para garantizar tiempos de respuesta rápidos al autenticar.
+
+Resultados esperados: Los usuarios deben poder iniciar sesión correctamente con credenciales válidas y recibir soporte en caso de errores.
+
+
+
+Figura 81. Vista previa del ingreso y visualización de los componentes del aplicativo
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Proporciona una vista inicial de los componentes principales del sistema tras el inicio de sesión, como estadísticas, rutinas y configuración.
+
+Pruebas realizadas: Verificación de que los componentes se cargan correctamente al iniciar sesión, pruebas de navegación entre los diferentes componentes y la validación de la sincronización de datos actualizados para cada componente.
+
+Resultados esperados: El sistema debe presentar los componentes de manera clara y accesible para facilitar la experiencia del usuario.
+
+
+
+Figura 82. Vista previa de la visualización del menú con sus módulos
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Presenta los módulos principales del menú, como estadísticas, rutinas, y configuración, con accesos rápidos para navegar.
+
+Pruebas realizadas: Validación de que cada módulo es accesible desde el menú principal, confirmación de que los botones llevan al contenido correspondiente y las pruebas de diseño responsivo para diferentes dispositivos.
+
+Resultados esperados: El menú debe ser intuitivo y permitir al usuario explorar las funcionalidades del sistema sin problemas.
+Figura 83. Vista previa del entrenamiento diario
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra los detalles de la rutina diaria asignada al usuario, incluyendo tipo de ejercicios, duración y objetivos.
+
+Pruebas realizadas: Validación de la carga de datos diarios asignados al usuario pruebas de navegación para acceder a detalles específicos de cada ejercicio y la confirmación de que los datos reflejan correctamente las asignaciones realizadas por el instructor.
+
+Resultados esperados: Los usuarios deben visualizar su rutina diaria con claridad, incluyendo información relevante y organizada.
+
+
+Figura 84. Vista previa del video del entrenamiento diario
+ 
+Figura 84 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Ofrece la posibilidad de reproducir videos relacionados con los ejercicios de la rutina diaria para demostrar la técnica correcta.
+
+Pruebas realizadas: Verificación de la calidad del video en diferentes resoluciones y dispositivos, validación de la funcionalidad de los controles de reproducción (play, pausa, avance) y las pruebas de carga para garantizar que los videos se reproducen sin interrupciones.
+
+Resultados esperados: Los videos deben ser claros, accesibles y servir como guía visual para los ejercicios.
+
+
+
+Figura 85. Vista previa de las fotos del entrenamiento diario
+ 
+Figura 85 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Proporciona imágenes relacionadas con los ejercicios para complementar los videos y aclarar posiciones o técnicas.
+
+Pruebas realizadas: Validación de que las imágenes se cargan correctamente y en alta calidad, pruebas de navegación entre imágenes relacionadas con diferentes ejercicios y la confirmación de que las imágenes reflejan con precisión las instrucciones del ejercicio.
+
+Resultados esperados: Las fotos deben ser claras y ayudar a los usuarios a ejecutar los ejercicios correctamente.
+
+
+
+Figura 86. Vista previa del detalle del entrenamiento diario
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Permite al usuario revisar información específica sobre cada ejercicio de su rutina diaria, como repeticiones, series y tiempo estimado.
+
+Pruebas realizadas: Verificación de que los detalles coinciden con las asignaciones realizadas por el instructor, pruebas de usabilidad para garantizar una presentación clara y organizada de los datos y la validación de que los usuarios pueden marcar los ejercicios como completados.
+
+Resultados esperados: Los detalles deben ser precisos y permitir a los usuarios realizar un seguimiento claro de su progreso diario.
+
+
+
+Figura 87. Vista previa de los componentes de las estadísticas 
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Proporciona una vista general de los diferentes componentes relacionados con las estadísticas del usuario, como calorías quemadas, metas alcanzadas y frecuencia de entrenamiento.
+
+Pruebas realizadas: Validación de la correcta agrupación y visualización de los datos estadísticos, pruebas de actualización en tiempo real de las estadísticas según los registros del usuario y la confirmación de que cada componente lleva al detalle correspondiente al seleccionarlo.
+
+Resultados esperados: Los usuarios deben poder explorar rápidamente sus estadísticas y acceder a más detalles si lo desean.
+Figura 88. Vista previa de las gráficas de las estadísticas
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra gráficas dinámicas e interactivas que representan el progreso del usuario, como la evolución del peso, tiempo dedicado al ejercicio y calorías quemadas.
+
+Pruebas realizadas: Validación de que los datos reflejados en las gráficas son precisos y actualizados, pruebas de interacción para cambiar entre diferentes periodos de tiempo o tipos de gráficas y la verificación de la adaptabilidad de las gráficas a diferentes tamaños de pantalla.
+
+Resultados esperados: Las gráficas deben ser visualmente claras, fáciles de entender y reflejar con precisión los datos registrados.
+
+
+
+Figura 89. Vista previa del módulo de configuración
+ 
+Figura 89 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra una visión general del módulo de configuración, donde los usuarios pueden ajustar preferencias relacionadas con su perfil, notificaciones y privacidad.
+
+Pruebas realizadas: Validación de la funcionalidad de cada opción dentro del módulo, pruebas para confirmar que los cambios realizados se guardan correctamente y la verificación de la seguridad al modificar configuraciones sensibles como contraseñas o permisos.
+
+Resultados esperados: Los usuarios deben poder personalizar su experiencia de manera sencilla y segura desde este módulo.
+
+
+
+Figura 90. Vista previa de los submenús de la configuración de unidades métricas
+ 
+Figura 90 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Permite al usuario cambiar entre unidades métricas e imperiales para las medidas del sistema, como peso y altura.
+
+Pruebas realizadas: Validación de la correcta conversión de datos entre unidades métricas e imperiales, pruebas para garantizar que todos los módulos reflejan el cambio de unidad seleccionado y la verificación de que las opciones de unidad se guardan correctamente.
+
+Resultados esperados: El sistema debe realizar conversiones precisas y reflejar los cambios en todas las secciones relacionadas.
+
+
+
+Figura 91. Vista previa de los submenús de la configuración de la privacidad
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Muestra opciones para ajustar configuraciones de privacidad, como la visibilidad del perfil y el acceso a datos personales.
+
+Pruebas realizadas: Validación de que los cambios de privacidad se aplican de inmediato, pruebas para garantizar que las configuraciones protegen adecuadamente los datos sensibles del usuario y la verificación de que el usuario recibe feedback claro al modificar estas opciones.
+
+Resultados esperados: Los usuarios deben tener control completo sobre sus datos y privacidad dentro del sistema.
+
+
+
+Figura 92 . Vista previa de la configuración de la contraseña
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Proporciona una interfaz para cambiar la contraseña del usuario, garantizando seguridad mediante validaciones de complejidad.
+
+Pruebas realizadas: Validación de los requisitos de seguridad de la contraseña, como longitud mínima y caracteres especiales, pruebas de funcionalidad para verificar que la contraseña se actualiza correctamente y la confirmación de que la nueva contraseña permite el acceso al sistema en el próximo inicio de sesión.
+
+Resultados esperados: El sistema debe garantizar un cambio seguro y efectivo de la contraseña, notificando al usuario del éxito del proceso.
+Figura 93. Vista previa del mensaje al guardar cambios en configuración
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Informa al usuario que los cambios realizados en la configuración han sido guardados correctamente.
+
+Pruebas realizadas: Verificación de que el mensaje aparece inmediatamente tras guardar, validación de que el mensaje desaparece automáticamente tras unos segundos o al cerrarlo y la confirmación de que los cambios se aplican y reflejan en la interfaz del sistema.
+
+Resultados esperados: El mensaje debe ser claro, breve y confirmar al usuario que su configuración se ha actualizado.
+
+
+
+Figura 94. Vista previa del mensaje al ingresar datos errados
+ 
+Figura 94 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+Descripción detallada: Este mensaje notifica al usuario que los datos ingresados no son válidos, indicando errores específicos para su corrección.
+
+Pruebas realizadas: Validación de que el mensaje aparece solo cuando se detectan errores en los datos ingresados, pruebas para garantizar que el mensaje ofrece información clara sobre cómo corregir los errores y la confirmación de que los datos corregidos permiten avanzar en el proceso.
+
+Resultados esperados: Los usuarios deben recibir un feedback claro y detallado sobre los errores cometidos.
+
+
+
+Figura 95.Vista previa del mensaje cuando se guarda un registro exitoso
+ 
+Figura 95 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Confirma que los registros ingresados han sido guardados exitosamente, asegurando al usuario que sus datos se han actualizado.
+
+Pruebas realizadas: Verificación de que el mensaje aparece tras una acción exitosa de guardado, pruebas de consistencia para confirmar que el mensaje se muestra con los datos correctos y la validación de que el mensaje desaparece tras un tiempo predeterminado o al cerrarlo.
+
+Resultados esperados: El mensaje debe reforzar la confianza del usuario en el sistema.
+
+
+
+Figura 96. Vista previa de los submenús de notificación
+ 
+
+Fuente: Elaboración propia.
+Descripción detallada: Permite al usuario navegar por diferentes submenús relacionados con las notificaciones, como configuraciones de tipo y frecuencia.
+
+Pruebas realizadas: Validación de la funcionalidad de cada submenú y sus opciones, confirmación de que los cambios realizados se reflejan en las notificaciones enviadas y las pruebas de diseño responsivo para asegurar que los submenús son claros en todas las plataformas.
+
+Resultados esperados: Los usuarios deben poder personalizar sus notificaciones de manera rápida y efectiva.
+
+
+
+Figura 97. Vista previa de la configuración de la foto de perfil
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Proporciona al usuario la opción de cambiar o actualizar su foto de perfil, permitiendo subir una imagen desde su galería o tomar una nueva con la cámara.
+
+Pruebas realizadas: Validación de que el sistema acepta formatos de imagen comunes (JPEG, PNG), pruebas de compatibilidad en diferentes dispositivos y resoluciones de pantalla y la confirmación de que la imagen seleccionada se actualiza y refleja en tiempo real en el perfil del usuario.
+
+Resultados esperados: El usuario debe poder actualizar su foto de perfil de manera sencilla y recibir una vista previa antes de confirmar los cambios.
+Figura 98. Vista previa de la foto de perfil seleccionada
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra la imagen que el usuario seleccionó para su perfil, ofreciendo una vista previa antes de proceder a guardarla definitivamente.
+
+Pruebas realizadas:  Verificación de que la imagen seleccionada se muestra en alta calidad, validación de que el botón "Guardar" guarda la imagen seleccionada correctamente en el perfil y la confirmación de que el usuario puede regresar y seleccionar otra foto si no está satisfecho con la actual.
+
+Resultados esperados: La vista previa debe permitir al usuario verificar su elección y garantizar que la imagen es adecuada antes de guardarla.
+
+
+
+Figura 99. Vista previa de las clases grupales
+ 
+Figura 99 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra una lista de clases grupales disponibles, destacando información relevante como horarios, instructores y capacidad de participantes.
+
+Pruebas realizadas: Validación de que las clases se organizan de forma clara y accesible para el usuario, pruebas de funcionalidad para registrarse o cancelar la participación en una clase y la confirmación de que los usuarios reciben notificaciones relacionadas con las clases a las que se inscriben.
+
+Resultados esperados: Los usuarios deben poder explorar, registrarse y gestionar su participación en clases grupales de manera eficiente.
+
+
+
+Figura 100. Vista previa de las notificaciones 
+ 
+Figura 100 (Continua)
+
+ 
+
+Fuente: Elaboración propia.
+
+
+
+Descripción detallada: Muestra un listado de notificaciones activas, incluyendo recordatorios de entrenamiento, actualizaciones de progreso y mensajes importantes del sistema.
+
+Pruebas realizadas: Verificación de que las notificaciones se ordenan por fecha y prioridad, pruebas para garantizar que las notificaciones relevantes se marcan como leídas al seleccionarlas y la validación de que el usuario puede gestionar las notificaciones, eliminando las que ya no sean necesarias.
+
+Resultados esperados: Las notificaciones deben ser claras y relevantes, brindando información útil al usuario de manera oportuna.
