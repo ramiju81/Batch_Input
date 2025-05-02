@@ -1,52 +1,63 @@
-# 🎓 📁 Batch Input
+# 🎓 🛠️ Proyecto — Batch_Input
 
-## 📝 Descripción
-
-Proyecto académico desarrollado como parte de mi formación en la Corporación Universitaria Centro Superior.
-
-
-## 🎯 Propósito
-
-Este proyecto tiene como objetivo... [Describir el propósito general del proyecto]
-
-
-## 🛠 Tecnologías Utilizadas
-
-- Tecnología 1
-
-- Tecnología 2
-
-- Tecnología 3
-
-
-## 🚀 Uso Básico
-
-```python
-
-# Ejemplo básico de uso
-
-import modulo_principal
-
-modulo_principal.funcion_ejemplo()
-
-```
-
-
-## 🤝 Contribución
-
-Este proyecto es parte de mi portafolio académico. Si deseas contribuir con ideas o sugerencias, ¡serán bienvenidas!
-
-
-## 📄 Licencia
-
-MIT License
-
-
-Copyright (c) 2025 juliram81
-
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
+![Privacidad](https://img.shields.io/badge/Uso-Académico-blue)
+![Lenguaje](https://img.shields.io/badge/Python-3.10-blue)
 
 ---
 
-🔄 Última actualización: 2025-05-01 01:15:57
+> Este proyecto nace con el objetivo de explorar y demostrar capacidades en el desarrollo de soluciones tecnológicas enfocadas en **Batch_Input**.  
+> Se encuentra actualmente en fase de desarrollo y puede estar sujeto a cambios frecuentes.
 
-⚙️ Generado automáticamente por RepoManager v1.0.0
+---
+
+## 📚 Tabla de Contenidos
+
+- [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
+- [🧠 Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [⚙️ Instalación rápida](#️-instalación-rápida)
+- [🛡️ Licencia y Restricciones](#️-licencia-y-restricciones)
+- [🧑‍💻 Autor y Contacto](#-autor-y-contacto)
+
+---
+
+## 🚀 Funcionalidades destacadas
+
+- ✨ Interfaz amigable para usuarios finales.
+- 🔒 Segmentación de roles y acceso.
+- 📡 Recolección y análisis de datos en tiempo real.
+- 📈 Panel de visualización con gráficos e informes.
+- 🛠️ Código modular y extensible.
+
+---
+
+## 🧠 Tecnologías Utilizadas
+
+- Python, HTML
+
+---
+
+## ⚙️ Instalación rápida
+
+```bash
+git clone https://github.com/ramiju81/Batch_Input.git
+```
+
+---
+
+## 🛡️ Licencia y Restricciones
+
+© 2025 Julian R. Todos los derechos reservados.  
+Este software es de uso académico.  
+Se prohíbe su reproducción o modificación sin autorización expresa del autor.
+
+---
+
+## 🧑‍💻 Autor y Contacto
+
+**Julian A. Ramirez**  
+Desarrollador ABAP 💻 | Explorador de IA 🤖 y Computación Cuántica ⚛️  
+📧 [juliram81@hotmail.com](mailto:juliram81@hotmail.com)  
+🔗 [LinkedIn](https://co.linkedin.com/in/julianramirezc)
+
+---
