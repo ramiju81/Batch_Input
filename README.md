@@ -18,9 +18,9 @@ Estructura básica del proyecto
 ## 📅 Actividad Reciente
 
 Últimos cambios:
+- `5216e57 - Actualizar README.md - 2025-05-03 (2025-05-03)`
 - `b446d03 - Actualizar README.md (2025-05-03)`
 - `9bf3c6a - Actualizar README.md (2025-05-03)`
-- `49aceea - Initial commit (2025-05-02)`
 
 ---
 
